@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <meta name="theme-color" content="#111111" >
+    <title>Test EmployCity</title>
+
+    <link rel="preload" href="fonts/Lato-Bold.woff" as="font" type="font/woff" crossorigin >
+    <link rel="preload" href="fonts/Lato-Medium.woff" as="font" type="font/woff" crossorigin >
+    <link rel="preload" href="fonts/Lato-Regular.woff" as="font" type="font/woff" crossorigin >
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" >
+    <link rel="stylesheet" href="css/vendor.css" >
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@800&display=swap"
+        rel="stylesheet">
+    <script defer src="js/main.js"></script>
+</head>
+
+
+  <body class="page__body">
+    <div class="site-container">
+      <header  class="header">
+    <div class="container header-container">
+        <a href="#" class="header__logo">LoremIpsum.<span>Net</span></a>
+        <nav class="header-nav">
+            <button type="button" class="header-nav__burger btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="header-nav__list list-reset">
+                <li class="header-nav__item">
+                    <a href="#" class="header-nav__link">Бизнес</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#" class="header-nav__link active">О нас</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#" class="header-nav__link">Цены</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#main-form" class="header-nav__link">Оформить заказ</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+      <main class="main">
+        <section class="first-screen">
+    <div class="container first-screen-container">
+        <picture class="first-screen__bg">
+            <source srcset="./img/fs_bg.avif" type="image/avif">
+            <source srcset="./img/fs_bg.webp" type="image/webp">
+            <img loading="lazy" src="./img/fs_bg.jpg" class="image" alt="first screen">
+        </picture>
+        <h1 data-aos="fade-right"
+        data-aos-duration="500" data-aos-delay="300" class="first-screen__title"><span>Lorem ipsum</span> dolor sit amet
+            consectetur <span>adipiscing</span></h1>
+        <p data-aos="fade-right"
+        data-aos-duration="500" data-aos-delay="600" class="first-screen__description">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+        <ul data-aos="fade-right"
+        data-aos-duration="500" data-aos-delay="900" class="first-screen__list list-reset">
+            <li class="first-screen__item">Totam rem aperiam eaque ipsa</li>
+            <li class="first-screen__item">Sit voluptatem accusantium doloremque laudantium</li>
+            <li class="first-screen__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+        <div data-aos="fade-down"
+        data-aos-duration="1000" data-aos-delay="1200" class="first-screen-btns">
+            <button class="btn btn-main">Заказать</button>
+            <a href="#" class="btn btn-second">Подробнее</a>
+        </div>
+    </div>
+</section>
+
+        <section class="order">
+    <div class="container order-container">
+        <h2 class="order__title">Оформление <span>Заказа</span></h2>
+        <p class="order__description">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+        <ul class="order-list list-reset">
+            <li data-aos="slide-right"
+     data-aos-duration="500" data-aos-delay="10" class="order-list__item">
+                <span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#search"></use>
+                    </svg>
+                </span>
+                <p>Lorem ipsum dolor
+                    sit amet</p>
+            </li>
+            <li data-aos="slide-right"
+     data-aos-duration="500" data-aos-delay="100" class="order-list__item">
+                <span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#proc"></use>
+                    </svg>
+                </span>
+                <p>Сonsecteturadipiscing elit</p>
+            </li>
+            <li data-aos="slide-right"
+     data-aos-duration="500" data-aos-delay="200" class="order-list__item">
+                <span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#file"></use>
+                    </svg>
+                </span>
+                <p>Sed do eiusmod tempor</p>
+            </li>
+            <li data-aos="slide-right"
+     data-aos-duration="500" data-aos-delay="300" class="order-list__item">
+                <span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#mail2"></use>
+                    </svg>
+                </span>
+                <p>Esse cillum dolore
+                    eu fugiat</p>
+            </li>
+            <li data-aos="slide-right"
+     data-aos-duration="500" data-aos-delay="400" class="order-list__item">
+                <span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#money"></use>
+                    </svg>
+                </span>
+                <p>Excepteur sint occaecat cupidatat non proident</p>
+            </li>
+        </ul>
+        <form action="#" class="order-form" method="post" id="main-form" enctype="multipart/form-data">
+            <div class="order-form__field">
+                <select class="default" id="choose-system" name="choose-system">
+                    <option disabled value="0">Выберите тип системы</option>
+                    <option value="1">Sed ut perspiciatis</option>
+                    <option value="2">Nemo enim ipsam</option>
+                    <option value="3">Et harum quidem</option>
+                    <option value="4">Temporibus autem</option>
+                    <option value="5">Itaque earum rerum</option>
+                </select>
+            </div>
+            <div class="order-form__field">
+                <input type="email" placeholder="Ваш e-mail" name="email">
+            </div>
+            <div class="order-form__field">
+                <input type="text" placeholder="Ваше имя" name="name">
+            </div>
+            <div class="order-form__field order-form__field--slider">
+                <div class="slider-output">
+                    <span>Sed ut perspiciatis, unde omnis iste natus</span>
+                    <output id="rangevalue">50</output>
+                </div>
+                <input type="range" min="0" max="100" onchange="rangevalue.value=value" >
+            </div>
+            <div class="order-form__field order-form__field--file">
+                <label for="choose-files">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#files"></use>
+                    </svg>
+                    <span>Прикрепить</span>
+                    <input type="file" id="choose-files" name="choose-files">
+                </label>
+            </div>
+            <div class="order-form__field--button">
+                <button type="submit" class="btn btn-main">Отправить</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+      </main>
+      <footer class="footer">
+    <div class="container footer-container">
+        <p class="footer__copyright">
+            © 2018 «LoremIpsum.net» Все права защищены.</p>
+        <ul class="footer-list list-reset">
+            <li class="footer-list__item footer__qiwi">
+                <svg>
+                    <use xlink:href="/img/sprite.svg#qiwi"></use>
+                </svg>
+                Qiwi wallet
+            </li>
+            <li class="footer-list__item footer__yandex">
+                <svg>
+                    <use xlink:href="/img/sprite.svg#yand"></use>
+                </svg>
+                Yandex Money
+            </li>
+            <li class="footer-list__item footer__webmoney">
+                <svg>
+                    <use xlink:href="/img/sprite.svg#wb"></use>
+                </svg>
+                Web Money
+            </li>
+        </ul>
+        <ul class="footer-contacts list-reset">
+            <li class="footer-contacts__item">
+                <a href="mailto:info@ipsum228.com" class="footer__email">
+                    <svg>
+                        <use xlink:href="/img/sprite.svg#mail"></use>
+                    </svg>
+                    info@ipsum228.com</a>
+            </li>
+            <li class="footer-contacts__item">
+                <a href="#" class="footer__vk">
+                    <svg>
+                        <use xlink:href="/img/sprite.svg#vk"></use>
+                    </svg>
+                    Мы вконтакте</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+    </div>
+  </body>
+</html>
