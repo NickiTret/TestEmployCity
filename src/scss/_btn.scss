@@ -1,0 +1,46 @@
+.btn {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: block;
+    transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    border: none;
+    font-family: $font-family;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-main {
+    background: #3e9cdc;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 15px 31.48px;
+    color: $clr_white;
+    width: 183px;
+    text-align: center;
+
+    &:hover {
+        color: #3e9cdc;
+        background: $clr_white;
+        border-color: #3e9cdc;
+    }
+}
+
+.btn-second {
+    display: inline-block;
+    background: $clr_white;
+    border: 1px solid #6f6d7b;
+    border-radius: 4px;
+    padding: 15px 31.48px;
+    color: #2A2B30;
+    width: 183px;
+    text-align: center;
+
+    &:hover {
+        color: $clr_white;
+        background: #3e9cdc;
+        border-color: $clr_white;
+    }
+}
